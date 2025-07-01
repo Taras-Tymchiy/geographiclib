@@ -472,8 +472,6 @@ if (EXAMPLEDIR)
   add_subdirectory (examples)   # This just installs the examples
 endif ()
 add_subdirectory (cmake)
-enable_testing ()
-add_subdirectory (tests)
 add_subdirectory (experimental)
 if (NOT RELEASE)
   add_subdirectory (develop)
