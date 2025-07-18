@@ -472,7 +472,7 @@ add_subdirectory (tools)
 #  add_subdirectory (examples)   # This just installs the examples
 #endif ()
 add_subdirectory (cmake)
-# add_subdirectory (experimental)
+add_subdirectory (experimental)
 if (NOT RELEASE)
   add_subdirectory (develop)
 endif ()
