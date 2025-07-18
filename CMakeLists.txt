@@ -464,7 +464,7 @@ set_property (GLOBAL PROPERTY USE_FOLDERS ON)
 # The list of subdirectories to process
 add_subdirectory (src)
 add_subdirectory (include/GeographicLib)
-add_subdirectory (tools)
+#add_subdirectory (tools)
 #add_subdirectory (man)
 #add_subdirectory (doc)
 #if (EXAMPLEDIR)
